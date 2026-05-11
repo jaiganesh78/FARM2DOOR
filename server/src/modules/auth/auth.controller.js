@@ -1,36 +1,29 @@
 import { registerUser, loginUser } from "./auth.service.js";
 import { generateToken } from "../../utils/jwt.js";
+import { asyncHandler } from "../../utils/asyncHandler.js";
 
-export const register = async (req, res) => {
-  try {
-    const user = await registerUser(req.body);
+export const register = asyncHandler(async (req, res) => {
+  const user = await registerUser(req.body);
 
-    const token = generateToken(user);
+  const token = generateToken(user);
 
-    res.json({
-      message: "User registered",
-      token,
-      user,
-    });
-  } catch (err) {
-    res.status(400).json({ error: err.message });
-  }
-};
+  res.json({
+    message: "User registered",
+    token,
+    user,
+  });
+});
 
-export const login = async (req, res) => {
-  try {
-    const { email, password } = req.body;
+export const login = asyncHandler(async (req, res) => {
+  const { email, password } = req.body;
 
-    const user = await loginUser(email, password);
+  const user = await loginUser(email, password);
 
-    const token = generateToken(user);
+  const token = generateToken(user);
 
-    res.json({
-      message: "Login successful",
-      token,
-      user,
-    });
-  } catch (err) {
-    res.status(400).json({ error: err.message });
-  }
-};
+  res.json({
+    message: "Login successful",
+    token,
+    user,
+  });
+});

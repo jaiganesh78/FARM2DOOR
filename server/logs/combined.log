@@ -1,0 +1,393 @@
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T17:51:12.666Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T17:51:25.357Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T17:51:43.618Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T17:52:02.068Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T18:04:15.236Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T18:04:19.447Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T18:04:22.565Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T18:23:26.424Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T18:23:28.552Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T18:23:29.860Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T18:23:32.502Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T18:23:34.410Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T18:23:36.323Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T18:23:38.201Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T18:23:40.367Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T18:23:42.066Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T18:23:44.409Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T18:23:46.807Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T18:27:54.557Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T18:55:25.468Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T18:55:35.137Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T19:06:27.286Z"}
+{"level":"error","message":"schema.safeParse is not a function","method":"GET","route":"/api/listings/abc","stack":"TypeError: schema.safeParse is not a function\n    at file:///D:/farm2door_safety/server/src/middleware/validate.middleware.js:7:25\n    at Layer.handleRequest (D:\\farm2door_safety\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\farm2door_safety\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\farm2door_safety\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\farm2door_safety\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\farm2door_safety\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\farm2door_safety\\server\\node_modules\\router\\index.js:295:15\n    at param (D:\\farm2door_safety\\server\\node_modules\\router\\index.js:600:14)\n    at param (D:\\farm2door_safety\\server\\node_modules\\router\\index.js:610:14)\n    at processParams (D:\\farm2door_safety\\server\\node_modules\\router\\index.js:664:3)","timestamp":"2026-04-05T19:07:42.118Z"}
+{"duration":"9ms","level":"info","message":"HTTP request","method":"GET","status":500,"timestamp":"2026-04-05T19:07:42.124Z","url":"/api/listings/abc"}
+{"duration":"11ms","level":"info","message":"HTTP request","method":"GET","status":500,"timestamp":"2026-04-05T19:07:42.126Z","url":"/api/listings/abc"}
+{"level":"error","message":"schema.safeParse is not a function","method":"GET","route":"/api/listings/8f79dc83-9954-4724-915b-7cb6e3e4716f","stack":"TypeError: schema.safeParse is not a function\n    at file:///D:/farm2door_safety/server/src/middleware/validate.middleware.js:7:25\n    at Layer.handleRequest (D:\\farm2door_safety\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\farm2door_safety\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\farm2door_safety\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\farm2door_safety\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\farm2door_safety\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\farm2door_safety\\server\\node_modules\\router\\index.js:295:15\n    at param (D:\\farm2door_safety\\server\\node_modules\\router\\index.js:600:14)\n    at param (D:\\farm2door_safety\\server\\node_modules\\router\\index.js:610:14)\n    at processParams (D:\\farm2door_safety\\server\\node_modules\\router\\index.js:664:3)","timestamp":"2026-04-05T19:08:13.229Z"}
+{"duration":"5ms","level":"info","message":"HTTP request","method":"GET","status":500,"timestamp":"2026-04-05T19:08:13.231Z","url":"/api/listings/8f79dc83-9954-4724-915b-7cb6e3e4716f"}
+{"duration":"5ms","level":"info","message":"HTTP request","method":"GET","status":500,"timestamp":"2026-04-05T19:08:13.232Z","url":"/api/listings/8f79dc83-9954-4724-915b-7cb6e3e4716f"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T19:15:00.058Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T19:16:48.575Z"}
+{"duration":"93ms","level":"info","message":"HTTP request","method":"GET","status":200,"timestamp":"2026-04-05T19:16:52.919Z","url":"/8f79dc83-9954-4724-915b-7cb6e3e4716f"}
+{"duration":"95ms","level":"info","message":"HTTP request","method":"GET","status":200,"timestamp":"2026-04-05T19:16:52.920Z","url":"/8f79dc83-9954-4724-915b-7cb6e3e4716f"}
+{"level":"error","message":"Invalid listing id","method":"GET","route":"/api/listings/8f79dc9954-4724-915b-7cb6e3e4716f","stack":"Error: Invalid listing id\n    at file:///D:/farm2door_safety/server/src/middleware/validate.middleware.js:14:17\n    at Layer.handleRequest (D:\\farm2door_safety\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\farm2door_safety\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\farm2door_safety\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\farm2door_safety\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\farm2door_safety\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\farm2door_safety\\server\\node_modules\\router\\index.js:295:15\n    at param (D:\\farm2door_safety\\server\\node_modules\\router\\index.js:600:14)\n    at param (D:\\farm2door_safety\\server\\node_modules\\router\\index.js:610:14)\n    at processParams (D:\\farm2door_safety\\server\\node_modules\\router\\index.js:664:3)","timestamp":"2026-04-05T19:16:59.086Z"}
+{"duration":"6ms","level":"info","message":"HTTP request","method":"GET","status":400,"timestamp":"2026-04-05T19:16:59.088Z","url":"/api/listings/8f79dc9954-4724-915b-7cb6e3e4716f"}
+{"duration":"7ms","level":"info","message":"HTTP request","method":"GET","status":400,"timestamp":"2026-04-05T19:16:59.089Z","url":"/api/listings/8f79dc9954-4724-915b-7cb6e3e4716f"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T19:30:51.598Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T19:30:53.408Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T19:31:02.435Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T19:31:31.173Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T19:31:35.261Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T19:46:21.282Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:21.292Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:21.351Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:21.459Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:21.616Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:21.832Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-05T19:46:23.223Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:23.232Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:23.301Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:23.408Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:23.562Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:23.766Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:24.031Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:24.340Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:24.698Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:25.103Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:25.570Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:26.081Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:26.643Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:27.250Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:27.903Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:28.616Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:29.379Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:30.186Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:31.039Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:31.957Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:32.920Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:33.927Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:34.983Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-05T19:46:36.100Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-17T19:03:56.975Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-17T19:03:56.982Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-17T19:03:57.041Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-17T19:03:57.148Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-17T19:03:57.306Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-17T19:03:57.510Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-17T19:03:57.773Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-17T19:03:58.085Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-17T19:03:58.440Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-17T19:03:58.847Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-17T19:03:59.311Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-17T19:03:59.829Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-17T19:04:00.386Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-17T19:04:00.993Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-17T19:04:01.647Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-17T19:04:02.362Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-17T19:04:03.129Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-17T19:09:23.365Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-17T19:09:23.389Z"}
+{"duration":"249ms","level":"info","message":"HTTP request","method":"GET","status":200,"timestamp":"2026-04-17T19:10:18.248Z","url":"/"}
+{"duration":"250ms","level":"info","message":"HTTP request","method":"GET","status":200,"timestamp":"2026-04-17T19:10:18.249Z","url":"/"}
+{"duration":"4ms","level":"info","message":"HTTP request","method":"GET","status":200,"timestamp":"2026-04-17T19:10:42.275Z","url":"/"}
+{"duration":"5ms","level":"info","message":"HTTP request","method":"GET","status":200,"timestamp":"2026-04-17T19:10:42.276Z","url":"/"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-17T19:17:02.452Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-17T19:17:02.478Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-17T19:17:07.692Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-17T19:17:07.715Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-17T19:17:10.668Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-17T19:17:10.694Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-17T19:20:08.649Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-17T19:20:08.670Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-17T19:20:10.962Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-17T19:20:10.982Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-17T19:41:02.721Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-17T19:41:02.773Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-17T19:41:20.603Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-17T19:41:20.632Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-17T19:41:22.620Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-17T19:41:22.642Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-17T19:45:37.943Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-17T19:45:37.964Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-17T19:46:04.490Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-17T19:46:04.513Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-17T19:46:19.389Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-17T19:46:19.415Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-17T19:46:47.140Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-17T19:46:47.165Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T05:19:37.461Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T05:19:37.477Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T05:19:55.165Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T05:19:55.181Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T05:20:07.869Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T05:20:07.884Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T05:21:25.559Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T05:21:25.581Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T05:22:24.558Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T05:22:24.576Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T05:30:36.383Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T05:30:36.405Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T05:34:02.886Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T05:34:02.911Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T05:34:27.588Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T05:34:27.616Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T05:34:37.158Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T05:34:37.183Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T05:37:18.186Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T05:37:18.206Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T05:37:42.840Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T05:37:42.860Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T05:38:37.746Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T05:38:37.772Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T05:42:33.134Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T05:42:33.156Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T05:42:44.510Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T05:45:17.190Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T05:45:17.209Z"}
+{"duration":"23ms","level":"info","message":"HTTP request","method":"GET","status":401,"timestamp":"2026-04-18T05:51:00.514Z","url":"/orders"}
+{"duration":"25ms","level":"info","message":"HTTP request","method":"GET","status":401,"timestamp":"2026-04-18T05:51:00.515Z","url":"/orders"}
+{"duration":"450ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-18T05:53:33.668Z","url":"/login"}
+{"duration":"451ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-18T05:53:33.669Z","url":"/login"}
+{"level":"error","message":"Invalid role","method":"POST","route":"/api/auth/register","stack":"Error: Invalid role\n    at file:///D:/farm2door_safety/server/src/middleware/validate.middleware.js:14:17\n    at Layer.handleRequest (D:\\farm2door_safety\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\farm2door_safety\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\farm2door_safety\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\farm2door_safety\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\farm2door_safety\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\farm2door_safety\\server\\node_modules\\router\\index.js:295:15\n    at processParams (D:\\farm2door_safety\\server\\node_modules\\router\\index.js:582:12)\n    at next (D:\\farm2door_safety\\server\\node_modules\\router\\index.js:291:5)\n    at Function.handle (D:\\farm2door_safety\\server\\node_modules\\router\\index.js:186:3)","timestamp":"2026-04-18T05:54:45.378Z"}
+{"duration":"14ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-18T05:54:45.380Z","url":"/api/auth/register"}
+{"duration":"14ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-18T05:54:45.381Z","url":"/api/auth/register"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T05:55:51.062Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T05:55:51.087Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T05:56:07.253Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T05:56:07.279Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T05:56:22.843Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T05:56:22.865Z"}
+{"duration":"350ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-18T05:57:54.217Z","url":"/register"}
+{"duration":"352ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-18T05:57:54.219Z","url":"/register"}
+{"duration":"3ms","level":"info","message":"HTTP request","method":"GET","status":401,"timestamp":"2026-04-18T05:59:25.429Z","url":"/orders"}
+{"duration":"5ms","level":"info","message":"HTTP request","method":"GET","status":401,"timestamp":"2026-04-18T05:59:25.430Z","url":"/orders"}
+{"duration":"39ms","level":"info","message":"HTTP request","method":"GET","status":200,"timestamp":"2026-04-18T05:59:47.607Z","url":"/orders","userId":"66910bec-6c27-4f5f-a836-a428f0dab9c0"}
+{"duration":"40ms","level":"info","message":"HTTP request","method":"GET","status":200,"timestamp":"2026-04-18T05:59:47.608Z","url":"/orders","userId":"66910bec-6c27-4f5f-a836-a428f0dab9c0"}
+{"duration":"4ms","level":"info","message":"HTTP request","method":"GET","status":404,"timestamp":"2026-04-18T06:03:11.085Z","url":"/api/auth/login"}
+{"duration":"5ms","level":"info","message":"HTTP request","method":"GET","status":404,"timestamp":"2026-04-18T06:03:11.086Z","url":"/api/auth/login"}
+{"duration":"281ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-18T06:03:16.095Z","url":"/login"}
+{"duration":"283ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-18T06:03:16.096Z","url":"/login"}
+{"duration":"10ms","level":"info","message":"HTTP request","method":"PATCH","status":400,"timestamp":"2026-04-18T06:04:56.133Z","url":"/6a293cec-0c9e-426b-8c51-a36542c8a8f7/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"11ms","level":"info","message":"HTTP request","method":"PATCH","status":400,"timestamp":"2026-04-18T06:04:56.134Z","url":"/6a293cec-0c9e-426b-8c51-a36542c8a8f7/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"6ms","level":"info","message":"HTTP request","method":"GET","status":200,"timestamp":"2026-04-18T06:06:10.578Z","url":"/deliveries","userId":"66910bec-6c27-4f5f-a836-a428f0dab9c0"}
+{"duration":"7ms","level":"info","message":"HTTP request","method":"GET","status":200,"timestamp":"2026-04-18T06:06:10.579Z","url":"/deliveries","userId":"66910bec-6c27-4f5f-a836-a428f0dab9c0"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T06:06:57.759Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T06:06:57.781Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T06:12:00.636Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T06:12:00.657Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T06:12:05.495Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T06:12:05.513Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T16:12:51.470Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:12:51.479Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:12:51.542Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:12:51.648Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:12:51.804Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:12:52.022Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:12:52.286Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:12:52.598Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:12:52.956Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:12:53.377Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:12:53.840Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:12:54.355Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:12:54.910Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:12:55.515Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:12:56.168Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:12:56.883Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:12:57.645Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:12:58.452Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:12:59.309Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:13:00.226Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:13:01.189Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:13:02.204Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:13:03.271Z"}
+{"context":"redis","level":"error","message":"connect ECONNREFUSED 127.0.0.1:6379","stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1611:16)","timestamp":"2026-04-18T16:13:04.375Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T16:23:06.148Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T16:23:06.175Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T16:24:13.262Z"}
+{"duration":"424ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-18T16:27:42.224Z","url":"/login"}
+{"duration":"425ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-18T16:27:42.225Z","url":"/login"}
+{"duration":"22ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-18T16:28:52.604Z","url":"/assign/6a293cec-0c9e-426b-8c51-a36542c8a8f7","userId":"3f9edcb6-b0d0-4fc4-a016-9f5eddeca564"}
+{"duration":"23ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-18T16:28:52.604Z","url":"/assign/6a293cec-0c9e-426b-8c51-a36542c8a8f7","userId":"3f9edcb6-b0d0-4fc4-a016-9f5eddeca564"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T16:34:02.513Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T16:34:02.533Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T16:34:40.243Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T16:34:40.262Z"}
+{"duration":"220ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-18T16:34:43.172Z","url":"/assign/6a293cec-0c9e-426b-8c51-a36542c8a8f7","userId":"3f9edcb6-b0d0-4fc4-a016-9f5eddeca564"}
+{"duration":"221ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-18T16:34:43.173Z","url":"/assign/6a293cec-0c9e-426b-8c51-a36542c8a8f7","userId":"3f9edcb6-b0d0-4fc4-a016-9f5eddeca564"}
+{"duration":"30ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-18T16:37:37.588Z","url":"/assign/6a293cec-0c9e-426b-8c51-a36542c8a8f7","userId":"3f9edcb6-b0d0-4fc4-a016-9f5eddeca564"}
+{"duration":"32ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-18T16:37:37.589Z","url":"/assign/6a293cec-0c9e-426b-8c51-a36542c8a8f7","userId":"3f9edcb6-b0d0-4fc4-a016-9f5eddeca564"}
+{"duration":"116ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-18T16:39:14.744Z","url":"/login"}
+{"duration":"117ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-18T16:39:14.744Z","url":"/login"}
+{"duration":"3ms","level":"info","message":"HTTP request","method":"POST","status":404,"timestamp":"2026-04-18T16:40:28.097Z","url":"/api/delivery/9fefd63d-f550-49a7-926c-762a668fda26/status"}
+{"duration":"4ms","level":"info","message":"HTTP request","method":"POST","status":404,"timestamp":"2026-04-18T16:40:28.098Z","url":"/api/delivery/9fefd63d-f550-49a7-926c-762a668fda26/status"}
+{"duration":"182ms","level":"info","message":"HTTP request","method":"PATCH","status":400,"timestamp":"2026-04-18T16:40:33.327Z","url":"/9fefd63d-f550-49a7-926c-762a668fda26/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"183ms","level":"info","message":"HTTP request","method":"PATCH","status":400,"timestamp":"2026-04-18T16:40:33.327Z","url":"/9fefd63d-f550-49a7-926c-762a668fda26/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"1ms","level":"info","message":"HTTP request","method":"PATCH","status":404,"timestamp":"2026-04-18T16:41:31.714Z","url":"/api/auth/login"}
+{"duration":"2ms","level":"info","message":"HTTP request","method":"PATCH","status":404,"timestamp":"2026-04-18T16:41:31.715Z","url":"/api/auth/login"}
+{"duration":"105ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-18T16:41:40.684Z","url":"/login"}
+{"duration":"106ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-18T16:41:40.685Z","url":"/login"}
+{"duration":"295ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-18T16:54:35.437Z","url":"/assign/6a293cec-0c9e-426b-8c51-a36542c8a8f7","userId":"3f9edcb6-b0d0-4fc4-a016-9f5eddeca564"}
+{"duration":"297ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-18T16:54:35.438Z","url":"/assign/6a293cec-0c9e-426b-8c51-a36542c8a8f7","userId":"3f9edcb6-b0d0-4fc4-a016-9f5eddeca564"}
+{"level":"error","message":"Unexpected token 'e', \"eyJhbGciOi\"... is not valid JSON","method":"GET","route":"/api/admin/delivery","stack":"SyntaxError: Unexpected token 'e', \"eyJhbGciOi\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (D:\\farm2door_safety\\server\\node_modules\\body-parser\\lib\\types\\json.js:109:10)\n    at parse (D:\\farm2door_safety\\server\\node_modules\\body-parser\\lib\\types\\json.js:66:15)\n    at D:\\farm2door_safety\\server\\node_modules\\body-parser\\lib\\read.js:162:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (D:\\farm2door_safety\\server\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\farm2door_safety\\server\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\farm2door_safety\\server\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:524:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)","timestamp":"2026-04-18T16:59:24.122Z"}
+{"duration":"0ms","level":"info","message":"HTTP request","method":"GET","status":404,"timestamp":"2026-04-18T16:59:59.583Z","url":"/api/zuth/login"}
+{"duration":"1ms","level":"info","message":"HTTP request","method":"GET","status":404,"timestamp":"2026-04-18T16:59:59.583Z","url":"/api/zuth/login"}
+{"duration":"1ms","level":"info","message":"HTTP request","method":"POST","status":404,"timestamp":"2026-04-18T17:00:03.937Z","url":"/api/zuth/login"}
+{"duration":"1ms","level":"info","message":"HTTP request","method":"POST","status":404,"timestamp":"2026-04-18T17:00:03.938Z","url":"/api/zuth/login"}
+{"duration":"285ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-18T17:00:12.694Z","url":"/login"}
+{"duration":"286ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-18T17:00:12.695Z","url":"/login"}
+{"duration":"1ms","level":"info","message":"HTTP request","method":"GET","status":404,"timestamp":"2026-04-18T17:00:43.174Z","url":"/api/admin/delivery"}
+{"duration":"1ms","level":"info","message":"HTTP request","method":"GET","status":404,"timestamp":"2026-04-18T17:00:43.175Z","url":"/api/admin/delivery"}
+{"duration":"20ms","level":"info","message":"HTTP request","method":"GET","status":200,"timestamp":"2026-04-18T17:01:17.990Z","url":"/deliveries","userId":"66910bec-6c27-4f5f-a836-a428f0dab9c0"}
+{"duration":"21ms","level":"info","message":"HTTP request","method":"GET","status":200,"timestamp":"2026-04-18T17:01:17.991Z","url":"/deliveries","userId":"66910bec-6c27-4f5f-a836-a428f0dab9c0"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T17:23:30.823Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T17:23:30.846Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T17:25:07.526Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T17:25:07.545Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T17:25:10.344Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T17:25:10.367Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T17:33:08.771Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T17:33:08.791Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T17:33:35.490Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T17:33:35.511Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T17:34:57.332Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T17:34:57.351Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T17:36:24.971Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T17:36:25.004Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T18:25:47.992Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T18:25:48.015Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T18:27:11.868Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T18:27:11.889Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-18T18:27:22.355Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-18T18:27:22.372Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-19T16:19:56.305Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-19T16:20:14.347Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-19T16:20:14.370Z"}
+{"duration":"4ms","level":"info","message":"HTTP request","method":"GET","status":404,"timestamp":"2026-04-19T16:27:52.450Z","url":"/api/auth/login"}
+{"duration":"6ms","level":"info","message":"HTTP request","method":"GET","status":404,"timestamp":"2026-04-19T16:27:52.451Z","url":"/api/auth/login"}
+{"duration":"395ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T16:27:57.932Z","url":"/login"}
+{"duration":"396ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T16:27:57.932Z","url":"/login"}
+{"duration":"112ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T16:28:33.929Z","url":"/login"}
+{"duration":"113ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T16:28:33.930Z","url":"/login"}
+{"duration":"104ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T16:28:59.287Z","url":"/login"}
+{"duration":"105ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T16:28:59.287Z","url":"/login"}
+{"duration":"108ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T16:29:45.785Z","url":"/login"}
+{"duration":"109ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T16:29:45.785Z","url":"/login"}
+{"duration":"27ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T16:31:24.234Z","url":"/","userId":"3f9edcb6-b0d0-4fc4-a016-9f5eddeca564"}
+{"duration":"28ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T16:31:24.234Z","url":"/","userId":"3f9edcb6-b0d0-4fc4-a016-9f5eddeca564"}
+{"duration":"205ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T16:36:31.577Z","url":"/offer","userId":"2c854d9a-548e-4d01-b7f3-a223b9cb8ee3"}
+{"duration":"206ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T16:36:31.577Z","url":"/offer","userId":"2c854d9a-548e-4d01-b7f3-a223b9cb8ee3"}
+{"duration":"1ms","level":"info","message":"HTTP request","method":"POST","status":404,"timestamp":"2026-04-19T16:38:53.156Z","url":"/api/negotiations/accept"}
+{"duration":"2ms","level":"info","message":"HTTP request","method":"POST","status":404,"timestamp":"2026-04-19T16:38:53.156Z","url":"/api/negotiations/accept"}
+{"duration":"1ms","level":"info","message":"HTTP request","method":"POST","status":404,"timestamp":"2026-04-19T16:45:49.065Z","url":"/api/negotiations/4e5fb490-612c-4f84-90ba-03b252ad786b/accept"}
+{"duration":"2ms","level":"info","message":"HTTP request","method":"POST","status":404,"timestamp":"2026-04-19T16:45:49.066Z","url":"/api/negotiations/4e5fb490-612c-4f84-90ba-03b252ad786b/accept"}
+{"duration":"1ms","level":"info","message":"HTTP request","method":"POST","status":404,"timestamp":"2026-04-19T16:46:25.822Z","url":"/api/negotiations/4e5fb490-612c-4f84-90ba-03b252ad786b/accept"}
+{"duration":"2ms","level":"info","message":"HTTP request","method":"POST","status":404,"timestamp":"2026-04-19T16:46:25.823Z","url":"/api/negotiations/4e5fb490-612c-4f84-90ba-03b252ad786b/accept"}
+{"duration":"224ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T16:46:59.183Z","url":"/4e5fb490-612c-4f84-90ba-03b252ad786b/respond","userId":"3f9edcb6-b0d0-4fc4-a016-9f5eddeca564"}
+{"duration":"225ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T16:46:59.184Z","url":"/4e5fb490-612c-4f84-90ba-03b252ad786b/respond","userId":"3f9edcb6-b0d0-4fc4-a016-9f5eddeca564"}
+{"duration":"24ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T16:51:51.653Z","url":"/assign/55f8be4b-125d-4e7a-bd38-0faf98d64e9a","userId":"3f9edcb6-b0d0-4fc4-a016-9f5eddeca564"}
+{"duration":"24ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T16:51:51.654Z","url":"/assign/55f8be4b-125d-4e7a-bd38-0faf98d64e9a","userId":"3f9edcb6-b0d0-4fc4-a016-9f5eddeca564"}
+{"deliveryId":"2c2884b8-c155-4799-a51a-6f9e267ecb93","level":"info","message":"Delivery status updated","status":"PICKED_UP","timestamp":"2026-04-19T16:56:07.558Z","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"198ms","level":"info","message":"HTTP request","method":"PATCH","status":200,"timestamp":"2026-04-19T16:56:07.564Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"199ms","level":"info","message":"HTTP request","method":"PATCH","status":200,"timestamp":"2026-04-19T16:56:07.564Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"deliveryId":"2c2884b8-c155-4799-a51a-6f9e267ecb93","level":"info","message":"Delivery status updated","status":"IN_TRANSIT","timestamp":"2026-04-19T16:56:17.354Z","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"35ms","level":"info","message":"HTTP request","method":"PATCH","status":200,"timestamp":"2026-04-19T16:56:17.360Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"36ms","level":"info","message":"HTTP request","method":"PATCH","status":200,"timestamp":"2026-04-19T16:56:17.361Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"deliveryId":"2c2884b8-c155-4799-a51a-6f9e267ecb93","level":"info","message":"Delivery status updated","status":"DELIVERED","timestamp":"2026-04-19T17:00:25.965Z","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"level":"info","message":"Processing OTP job","otp":"***masked***","timestamp":"2026-04-19T17:00:25.968Z","userId":"2c854d9a-548e-4d01-b7f3-a223b9cb8ee3"}
+{"duration":"131ms","level":"info","message":"HTTP request","method":"PATCH","status":200,"timestamp":"2026-04-19T17:00:25.969Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"131ms","level":"info","message":"HTTP request","method":"PATCH","status":200,"timestamp":"2026-04-19T17:00:25.970Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"jobId":"1","jobName":"SEND_OTP","level":"info","message":"Job completed","timestamp":"2026-04-19T17:00:26.021Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-19T17:04:30.060Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-19T17:04:30.080Z"}
+{"deliveryId":"2c2884b8-c155-4799-a51a-6f9e267ecb93","level":"info","message":"Delivery status updated","status":"DELIVERED","timestamp":"2026-04-19T17:04:43.704Z","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"216ms","level":"info","message":"HTTP request","method":"PATCH","status":200,"timestamp":"2026-04-19T17:04:43.714Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"217ms","level":"info","message":"HTTP request","method":"PATCH","status":200,"timestamp":"2026-04-19T17:04:43.715Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"deliveryId":"2c2884b8-c155-4799-a51a-6f9e267ecb93","level":"info","message":"Delivery status updated","status":"DELIVERED","timestamp":"2026-04-19T17:05:38.073Z","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"13ms","level":"info","message":"HTTP request","method":"PATCH","status":200,"timestamp":"2026-04-19T17:05:38.078Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"14ms","level":"info","message":"HTTP request","method":"PATCH","status":200,"timestamp":"2026-04-19T17:05:38.079Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"level":"info","message":"Processing OTP job","otp":"***masked***","timestamp":"2026-04-19T17:17:09.105Z","userId":"2c854d9a-548e-4d01-b7f3-a223b9cb8ee3"}
+{"jobId":"2","jobName":"SEND_OTP","level":"info","message":"Job completed","timestamp":"2026-04-19T17:17:09.107Z"}
+{"deliveryId":"2c2884b8-c155-4799-a51a-6f9e267ecb93","level":"info","message":"Delivery status updated","status":"DELIVERED","timestamp":"2026-04-19T17:17:09.108Z","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"317ms","level":"info","message":"HTTP request","method":"PATCH","status":200,"timestamp":"2026-04-19T17:17:09.113Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"317ms","level":"info","message":"HTTP request","method":"PATCH","status":200,"timestamp":"2026-04-19T17:17:09.114Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-19T17:17:31.823Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-19T17:17:31.844Z"}
+{"deliveryId":"2c2884b8-c155-4799-a51a-6f9e267ecb93","level":"info","message":"Delivery status updated","status":"DELIVERED","timestamp":"2026-04-19T17:17:57.515Z","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"211ms","level":"info","message":"HTTP request","method":"PATCH","status":200,"timestamp":"2026-04-19T17:17:57.526Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"212ms","level":"info","message":"HTTP request","method":"PATCH","status":200,"timestamp":"2026-04-19T17:17:57.527Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-19T17:19:32.795Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-19T17:19:46.787Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-19T17:19:46.811Z"}
+{"level":"info","message":"Processing OTP job","otp":"5210","timestamp":"2026-04-19T17:19:59.257Z","userId":"2c854d9a-548e-4d01-b7f3-a223b9cb8ee3"}
+{"deliveryId":"2c2884b8-c155-4799-a51a-6f9e267ecb93","level":"info","message":"Delivery status updated","status":"DELIVERED","timestamp":"2026-04-19T17:19:59.259Z","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"336ms","level":"info","message":"HTTP request","method":"PATCH","status":200,"timestamp":"2026-04-19T17:19:59.269Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"337ms","level":"info","message":"HTTP request","method":"PATCH","status":200,"timestamp":"2026-04-19T17:19:59.270Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"jobId":"3","jobName":"SEND_OTP","level":"info","message":"Job completed","timestamp":"2026-04-19T17:19:59.303Z"}
+{"duration":"2ms","level":"info","message":"HTTP request","method":"PATCH","status":404,"timestamp":"2026-04-19T17:21:45.148Z","url":"/api/delivery/2c2884b8-c155-4799-a51a-6f9e267ecb93/verify"}
+{"duration":"3ms","level":"info","message":"HTTP request","method":"PATCH","status":404,"timestamp":"2026-04-19T17:21:45.149Z","url":"/api/delivery/2c2884b8-c155-4799-a51a-6f9e267ecb93/verify"}
+{"duration":"117ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-19T17:21:50.154Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/verify","userId":"3f9edcb6-b0d0-4fc4-a016-9f5eddeca564"}
+{"duration":"118ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-19T17:21:50.155Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/verify","userId":"3f9edcb6-b0d0-4fc4-a016-9f5eddeca564"}
+{"level":"info","message":"Processing OTP job","otp":"8900","timestamp":"2026-04-19T17:24:48.644Z","userId":"2c854d9a-548e-4d01-b7f3-a223b9cb8ee3"}
+{"deliveryId":"2c2884b8-c155-4799-a51a-6f9e267ecb93","level":"info","message":"Delivery status updated","status":"DELIVERED","timestamp":"2026-04-19T17:24:48.646Z","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"jobId":"4","jobName":"SEND_OTP","level":"info","message":"Job completed","timestamp":"2026-04-19T17:24:48.647Z"}
+{"duration":"116ms","level":"info","message":"HTTP request","method":"PATCH","status":200,"timestamp":"2026-04-19T17:24:48.651Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"117ms","level":"info","message":"HTTP request","method":"PATCH","status":200,"timestamp":"2026-04-19T17:24:48.653Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"292ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-19T17:26:04.399Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/verify","userId":"3f9edcb6-b0d0-4fc4-a016-9f5eddeca564"}
+{"duration":"293ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-19T17:26:04.400Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/verify","userId":"3f9edcb6-b0d0-4fc4-a016-9f5eddeca564"}
+{"duration":"2ms","level":"info","message":"HTTP request","method":"POST","status":429,"timestamp":"2026-04-19T17:26:20.056Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/verify"}
+{"duration":"3ms","level":"info","message":"HTTP request","method":"POST","status":429,"timestamp":"2026-04-19T17:26:20.057Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/verify"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-19T17:28:18.657Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-19T17:28:18.678Z"}
+{"duration":"312ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-19T17:28:23.352Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/verify","userId":"2c854d9a-548e-4d01-b7f3-a223b9cb8ee3"}
+{"duration":"313ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-19T17:28:23.353Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/verify","userId":"2c854d9a-548e-4d01-b7f3-a223b9cb8ee3"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-19T17:39:22.504Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-19T17:39:22.525Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-19T17:40:11.239Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-19T17:40:11.259Z"}
+{"duration":"313ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-19T17:40:42.459Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/verify","userId":"2c854d9a-548e-4d01-b7f3-a223b9cb8ee3"}
+{"duration":"315ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-19T17:40:42.460Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/verify","userId":"2c854d9a-548e-4d01-b7f3-a223b9cb8ee3"}
+{"duration":"3ms","level":"info","message":"HTTP request","method":"POST","status":404,"timestamp":"2026-04-19T17:42:29.436Z","url":"/api/delivery/2c2884b8-c155-4799-a51a-6f9e267ecb93/status"}
+{"duration":"5ms","level":"info","message":"HTTP request","method":"POST","status":404,"timestamp":"2026-04-19T17:42:29.437Z","url":"/api/delivery/2c2884b8-c155-4799-a51a-6f9e267ecb93/status"}
+{"level":"info","message":"Processing OTP job","otp":"7933","timestamp":"2026-04-19T17:42:34.073Z","userId":"2c854d9a-548e-4d01-b7f3-a223b9cb8ee3"}
+{"jobId":"5","jobName":"SEND_OTP","level":"info","message":"Job completed","timestamp":"2026-04-19T17:42:34.075Z"}
+{"deliveryId":"2c2884b8-c155-4799-a51a-6f9e267ecb93","level":"info","message":"Delivery status updated","status":"DELIVERED","timestamp":"2026-04-19T17:42:34.077Z","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"131ms","level":"info","message":"HTTP request","method":"PATCH","status":200,"timestamp":"2026-04-19T17:42:34.082Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"132ms","level":"info","message":"HTTP request","method":"PATCH","status":200,"timestamp":"2026-04-19T17:42:34.083Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/status","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"116ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-19T17:44:09.370Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/verify","userId":"2c854d9a-548e-4d01-b7f3-a223b9cb8ee3"}
+{"duration":"117ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-19T17:44:09.370Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/verify","userId":"2c854d9a-548e-4d01-b7f3-a223b9cb8ee3"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-19T17:44:55.206Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-19T17:44:55.228Z"}
+{"duration":"312ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T17:44:58.946Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/verify","userId":"2c854d9a-548e-4d01-b7f3-a223b9cb8ee3"}
+{"duration":"314ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T17:44:58.947Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/verify","userId":"2c854d9a-548e-4d01-b7f3-a223b9cb8ee3"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-19T18:37:19.770Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-19T18:37:19.796Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-19T18:37:25.174Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-19T18:37:25.198Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-19T18:37:27.490Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-19T18:37:27.514Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-19T18:37:31.724Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-19T18:37:31.746Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-19T18:51:48.781Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-19T18:51:48.805Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-19T18:52:39.756Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-19T18:52:39.783Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-19T18:53:36.970Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-19T18:53:36.990Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-19T18:54:30.948Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-19T18:54:30.969Z"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-19T18:56:44.353Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-19T18:56:44.378Z"}
+{"duration":"210ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-19T18:57:51.594Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/location","userId":"66910bec-6c27-4f5f-a836-a428f0dab9c0"}
+{"duration":"211ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-19T18:57:51.595Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/location","userId":"66910bec-6c27-4f5f-a836-a428f0dab9c0"}
+{"duration":"13ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T18:58:11.647Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/location","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"14ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T18:58:11.648Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/location","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"9ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T18:58:17.344Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/location","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"10ms","level":"info","message":"HTTP request","method":"POST","status":200,"timestamp":"2026-04-19T18:58:17.345Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/location","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"5ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-19T18:58:18.147Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/location","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"6ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-19T18:58:18.147Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/location","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"6ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-19T18:58:18.847Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/location","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"7ms","level":"info","message":"HTTP request","method":"POST","status":400,"timestamp":"2026-04-19T18:58:18.848Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/location","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"8ms","level":"info","message":"HTTP request","method":"GET","status":200,"timestamp":"2026-04-19T18:58:35.116Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/location","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"duration":"10ms","level":"info","message":"HTTP request","method":"GET","status":200,"timestamp":"2026-04-19T18:58:35.116Z","url":"/2c2884b8-c155-4799-a51a-6f9e267ecb93/location","userId":"a672026a-5473-4b20-9bc0-6e44c4c263fb"}
+{"level":"info","message":"Server running","port":5000,"timestamp":"2026-04-19T19:37:56.701Z"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2026-04-19T19:37:56.725Z"}

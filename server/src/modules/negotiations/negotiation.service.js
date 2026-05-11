@@ -1,4 +1,5 @@
 import prisma from "../../config/prisma.js";
+import { reserveInventory } from "../../utils/inventory.js";
 
 // Create Offer (start or continue negotiation)
 export const createOffer = async (user, data) => {
@@ -105,30 +106,23 @@ if (action === "ACCEPT") {
 
     if (!lastOffer) throw new Error("No offer found");
 
-    // Get listing and check stock
     const listing = await tx.listing.findUnique({
       where: { id: negotiationData.listingId },
+      select: { id: true },
     });
 
     if (!listing) throw new Error("Listing not found");
 
-    if (listing.availableQuantity < lastOffer.quantity) {
-      throw new Error("Not enough stock available");
-    }
-
     // Update negotiation
+    
+
+    await reserveInventory(tx, listing.id, lastOffer.quantity, {
+      negotiationId: id,
+      buyerId: negotiationData.buyerId,
+    });
     await tx.negotiation.update({
       where: { id },
       data: { status: "ACCEPTED" },
-    });
-
-    // Update listing quantities
-    await tx.listing.update({
-      where: { id: listing.id },
-      data: {
-        availableQuantity: listing.availableQuantity - lastOffer.quantity,
-        reservedQuantity: listing.reservedQuantity + lastOffer.quantity,
-      },
     });
 
     // Create order

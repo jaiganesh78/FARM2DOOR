@@ -137,9 +137,11 @@ model Payment {
   id            String   @id @default(uuid())
   orderId       String   @unique
   amount        Float
+  razorpayOrderId   String?  @unique
   method        String
   status        PaymentStatus
   transactionId String?
+  webhookProcessed  Boolean  @default(false)
   escrowStatus  EscrowStatus @default(HELD)
   createdAt     DateTime @default(now())
 
@@ -160,6 +162,10 @@ model Delivery {
 
   dropLat            Float
   dropLng            Float
+
+  lastLat            Float?
+  lastLng            Float?
+  lastUpdatedAt      DateTime?
 
   status             DeliveryStatus @default(ASSIGNED)
   otp                String?
@@ -186,7 +192,7 @@ model Review {
   rating       Int
   comment      String?
   createdAt    DateTime @default(now())
-
+  @@unique([orderId, reviewerId])
   reviewer     User @relation("Reviewer", fields: [reviewerId], references: [id])
   targetUser   User @relation("TargetUser", fields: [targetUserId], references: [id])
 }

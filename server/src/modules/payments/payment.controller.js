@@ -1,31 +1,43 @@
 import * as service from "./payment.service.js";
+import logger from "../../utils/logger.js";
 
-export const pay = async (req, res) => {
+export const createOrder = async (req, res, next) => {
   try {
-    const result = await service.makePayment(req.user, req.params.orderId);
-    res.json(result);
-  } catch (err) {
-    res.status(400).json({ error: err.message });
-  }
-};
-
-export const confirm = async (req, res) => {
-  try {
-    const result = await service.confirmDelivery(
+    const result = await service.createRazorpayOrder(
       req.user,
       req.params.orderId
     );
-    res.json(result);
+    res.json({ success: true, data: result });
   } catch (err) {
-    res.status(400).json({ error: err.message });
+    next(err);
   }
 };
 
-export const refund = async (req, res) => {
+export const verify = async (req, res, next) => {
   try {
-    const result = await service.refundPayment(req.params.orderId);
-    res.json(result);
+    const result = await service.verifyPayment(req.user, req.body);
+    res.json({ success: true, data: result });
   } catch (err) {
-    res.status(400).json({ error: err.message });
+    next(err);
+  }
+};
+
+export const webhook = async (req, res) => {
+  try {
+    await service.handleRazorpayWebhook(
+      req.body,
+      req.get("x-razorpay-signature")
+    );
+
+    res.status(200).send("OK");
+  } catch (err) {
+    logger.error({
+      message: err.message,
+      stack: err.stack,
+      context: "razorpay_webhook",
+    });
+
+    // Still return 200 to avoid infinite retries for logic errors
+    res.status(200).send("OK");
   }
 };

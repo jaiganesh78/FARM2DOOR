@@ -1,59 +1,74 @@
 import * as listingService from "./listing.service.js";
+import { asyncHandler } from "../../utils/asyncHandler.js";
 
-export const createListing = async (req, res) => {
-  try {
-    const listing = await listingService.createListing(
-      req.user.id,
-      req.body
-    );
+export const createListing = asyncHandler(async (req, res) => {
+  const listing = await listingService.createListing(
+    req.user.id,
+    req.body
+  );
 
-    res.json(listing);
-  } catch (err) {
-    res.status(400).json({ error: err.message });
+  res.json({
+    success: true,
+    data: listing,
+  });
+});
+
+export const getAllListings = asyncHandler(async (req, res) => {
+  const listings = await listingService.getAllListings(req.query);
+
+  res.json({
+    success: true,
+    data: listings,
+  });
+});
+
+export const getListingById = asyncHandler(async (req, res) => {
+  const listing = await listingService.getListingById(req.params.id);
+
+  res.json({
+    success: true,
+    data: listing,
+  });
+});
+
+export const updateListing = asyncHandler(async (req, res) => {
+  const updated = await listingService.updateListing(
+    req.user.id,
+    req.params.id,
+    req.body
+  );
+
+  res.json({
+    success: true,
+    data: updated,
+  });
+});
+
+export const deleteListing = asyncHandler(async (req, res) => {
+  const result = await listingService.deleteListing(
+    req.user.id,
+    req.params.id
+  );
+
+  res.json({
+    success: true,
+    data: result,
+  });
+});
+
+export const uploadImage = asyncHandler(async (req, res) => {
+  const imageUrl = req.file?.path;
+  if (!imageUrl) {
+    const err = new Error("No file provided");
+    err.statusCode = 400;
+    throw err;
   }
-};
 
-export const getAllListings = async (req, res) => {
-  try {
-    const listings = await listingService.getAllListings(req.query);
-    res.json(listings);
-  } catch (err) {
-    res.status(400).json({ error: err.message });
-  }
-};
+  const data = await listingService.uploadListingImage(
+    req.user.id,
+    req.params.id,
+    imageUrl
+  );
 
-export const getListingById = async (req, res) => {
-  try {
-    const listing = await listingService.getListingById(req.params.id);
-    res.json(listing);
-  } catch (err) {
-    res.status(404).json({ error: err.message });
-  }
-};
-
-export const updateListing = async (req, res) => {
-  try {
-    const updated = await listingService.updateListing(
-      req.user.id,
-      req.params.id,
-      req.body
-    );
-
-    res.json(updated);
-  } catch (err) {
-    res.status(400).json({ error: err.message });
-  }
-};
-
-export const deleteListing = async (req, res) => {
-  try {
-    const result = await listingService.deleteListing(
-      req.user.id,
-      req.params.id
-    );
-
-    res.json(result);
-  } catch (err) {
-    res.status(400).json({ error: err.message });
-  }
-};
+  res.json({ success: true, data });
+});

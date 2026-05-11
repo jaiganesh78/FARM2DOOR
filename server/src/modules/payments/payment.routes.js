@@ -4,8 +4,9 @@ import { authenticate } from "../../middleware/auth.middleware.js";
 
 const router = express.Router();
 
-router.post("/:orderId/pay", authenticate, controller.pay);
-router.post("/:orderId/confirm", authenticate, controller.confirm);
-router.post("/:orderId/refund", authenticate, controller.refund);
+router.post("/webhook", controller.webhook);
+router.post("/:orderId/create-order", authenticate, controller.createOrder);
+router.post("/verify", authenticate, controller.verify);
+
 
 export default router;

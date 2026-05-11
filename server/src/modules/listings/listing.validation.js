@@ -1,14 +1,18 @@
 import { z } from "zod";
 
-export const createListingSchema = z.object({
-  productName: z.string().min(2),
+const createListingBodySchema = z.object({
+  productName: z.string().min(2, "Product name is required"),
   description: z.string().optional(),
-  pricePerUnit: z.number().positive(),
-  unit: z.string().min(1),
-  totalQuantity: z.number().positive(),
-  latitude: z.number(),
-  longitude: z.number(),
+  pricePerUnit: z.coerce.number().positive("Price must be positive"),
+  unit: z.string().min(1, "Unit is required"),
+  totalQuantity: z.coerce.number().positive("Quantity must be positive"),
+  latitude: z.coerce.number(),
+  longitude: z.coerce.number(),
   negotiable: z.boolean().optional(),
+});
+
+export const createListingSchema = z.object({
+  body: createListingBodySchema,
 });
 
 export const updateListingSchema = z.object({
@@ -20,4 +24,9 @@ export const updateListingSchema = z.object({
   latitude: z.number().optional(),
   longitude: z.number().optional(),
   negotiable: z.boolean().optional(),
+});
+export const listingIdParamSchema = z.object({
+  params: z.object({
+    id: z.string().uuid("Invalid listing id"),
+  }),
 });

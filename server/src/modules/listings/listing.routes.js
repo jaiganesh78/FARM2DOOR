@@ -5,7 +5,11 @@ import { authorize } from "../../middleware/role.middleware.js";
 import {
   createListingSchema,
   updateListingSchema,
+  listingIdParamSchema,
 } from "./listing.validation.js";
+import { validate } from "../../middleware/validate.middleware.js";
+import { z } from "zod";
+import { uploadListingImage } from "../../middleware/upload.middleware.js";
 const router = express.Router();
 
 // Create listing (Farmer only)
@@ -13,14 +17,7 @@ router.post(
   "/",
   authenticate,
   authorize("FARMER"),
-  (req, res, next) => {
-    try {
-      req.body = createListingSchema.parse(req.body);
-      next();
-    } catch (err) {
-      return res.status(400).json({ error: err.errors });
-    }
-  },
+  validate(createListingSchema),
   listingController.createListing
 );
 
@@ -28,21 +25,22 @@ router.post(
 router.get("/", listingController.getAllListings);
 
 // Get single listing
-router.get("/:id", listingController.getListingById);
+router.get(
+  "/:id",
+  validate(listingIdParamSchema),
+  listingController.getListingById
+);
 
 // Update listing (Farmer only)
 router.patch(
   "/:id",
   authenticate,
   authorize("FARMER"),
-  (req, res, next) => {
-    try {
-      req.body = updateListingSchema.parse(req.body);
-      next();
-    } catch (err) {
-      return res.status(400).json({ error: err.errors });
-    }
-  },
+  validate(
+    z.object({
+      body: updateListingSchema,
+    })
+  ),
   listingController.updateListing
 );
 
@@ -51,7 +49,17 @@ router.delete(
   "/:id",
   authenticate,
   authorize("FARMER"),
+  validate(listingIdParamSchema),
   listingController.deleteListing
+);
+
+router.post(
+  "/:id/image",
+  authenticate,
+  authorize("FARMER"),
+  validate(listingIdParamSchema),
+  uploadListingImage.single("image"),
+  listingController.uploadImage
 );
 
 export default router;
